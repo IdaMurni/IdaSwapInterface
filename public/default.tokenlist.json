@@ -1,0 +1,24 @@
+{
+  "name": "IdaMurni List",
+  "timestamp": "2020-06-15T12:00:00+00:00",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 13
+  },
+  "logoURI": "https://raw.githubusercontent.com/IdaMurni/website/main/src/assets/img/ida_murni_master.png",
+  "keywords": [
+    "idaswap",
+    "default"
+  ],
+  "tokens": [
+    {
+      "name": "IDA MURNI",
+      "address": "0xCcAE06Ec0787c07D7dF5a60856C73A113Fc7CF9A",
+      "symbol": "IDA",
+      "decimals": 18,
+      "chainId": 137,
+      "logoURI": "https://raw.githubusercontent.com/IdaMurni/website/main/src/assets/img/ida_murni_master.png"
+    }
+  ]
+}
