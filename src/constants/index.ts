@@ -14,16 +14,16 @@ type ChainTokenList = {
 
 // export const DAI = new Token(ChainId.MAINNET, '0x6B175474E89094C44Da98b954EedeAC495271d0F', 18, 'DAI', 'Dai Stablecoin')
 export const USDC = new Token(ChainId.MAINNET, '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48', 6, 'USDC', 'USD//C')
-// export const USDT = new Token(ChainId.MAINNET, '0xdAC17F958D2ee523a2206206994597C13D831ec7', 6, 'USDT', 'Tether USD')
+export const USDT = new Token(ChainId.MAINNET, '0xc2132d05d31c914a87c6611c10748aeb04b58e8f', 6, 'USDT', 'Tether USD')
 // export const COMP = new Token(ChainId.MAINNET, '0xc00e94Cb662C3520282E6f5717214004A7f26888', 18, 'COMP', 'Compound')
 // export const MKR = new Token(ChainId.MAINNET, '0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2', 18, 'MKR', 'Maker')
-export const WMTC = new Token(ChainId.MAINNET, '0xa2d4D881f1267d590f5C582FD98CbCa90e36F832', 18, 'WMTC', 'Wrapped Matic')
+export const WMTC = new Token(ChainId.MAINNET, '0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270', 18, 'WMATIC', 'Wrapped Matic')
 export const IDA = new Token(ChainId.MAINNET, '0xCcAE06Ec0787c07D7dF5a60856C73A113Fc7CF9A', 18, 'IDA', 'IdaMurni')
 
 // TODO this is only approximate, it's actually based on blocks
 export const PROPOSAL_LENGTH_IN_DAYS = 7
 
-export const GOVERNANCE_ADDRESS = '0x5e4be8Bc9637f0EAA1A755019e06A68ce081D58F'
+export const GOVERNANCE_ADDRESS = '0x5e4be8Bc9637f0EAA1A755019e06A68ce081D58F' // TODO IDA_ADDR
 
 const UNI_ADDRESS = '0xCcAE06Ec0787c07D7dF5a60856C73A113Fc7CF9A'
 export const UNI: { [chainId in ChainId]: Token } = {
@@ -36,7 +36,7 @@ export const UNI: { [chainId in ChainId]: Token } = {
 
 // TODO: specify merkle distributor for mainnet
 export const MERKLE_DISTRIBUTOR_ADDRESS: { [chainId in ChainId]?: string } = {
-  [ChainId.MAINNET]: '0x090D4613473dEE047c3f2706764f49E0821D256e'
+  [ChainId.MAINNET]: '0x090D4613473dEE047c3f2706764f49E0821D256e' // TODO IDA_ADDR
 }
 
 const WETH_ONLY: ChainTokenList = {
