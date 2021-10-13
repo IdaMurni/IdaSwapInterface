@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import { Info, MessageCircle } from 'react-feather'
+import { Info, MessageCircle, PieChart } from 'react-feather'
 import styled from 'styled-components'
 import { ReactComponent as MenuIcon } from '../../assets/images/menu.svg'
 // import { useActiveWeb3React } from '../../hooks'
@@ -105,7 +105,7 @@ export default function Menu() {
 
       {open && (
         <MenuFlyout>
-          <MenuItem id="link" href="https://idamurni.de/">
+          <MenuItem id="link" href="https://idamurni.gitbook.io/ida/">
             <Info size={14} />
             About
           </MenuItem>
@@ -121,11 +121,19 @@ export default function Menu() {
             <MessageCircle size={14} />
             Discord
           </MenuItem>
-          {/* <MenuItem id="link" href="https://uniswap.info/">
+          <MenuItem id="link" href="https://medium.com/@idamurni">
+            <MessageCircle size={14} />
+            Medium
+          </MenuItem>
+          <MenuItem id="link" href="https://twitter.com/idamurni_ida">
+            <MessageCircle size={14} />
+            Twitter
+          </MenuItem>
+          <MenuItem id="link" href="https://info.idamurni.de/">
             <PieChart size={14} />
             Analytics
           </MenuItem>
-          {account && (
+          {/* {account && (
             <ButtonPrimary onClick={openClaimModal} padding="8px 16px" width="100%" borderRadius="12px" mt="0.5rem">
               Claim UNI
             </ButtonPrimary>
