@@ -371,7 +371,7 @@ export function ListSelect({ onDismiss, onBack }: { onDismiss: () => void; onBac
       <Separator />
 
       <div style={{ padding: '16px', textAlign: 'center' }}>
-        <ExternalLink href="https://swap.idamurni.de/default.tokenlist.json">Browse lists</ExternalLink>
+        <ExternalLink href="https://raw.githubusercontent.com/IdaMurni/tokenList/c8b3c23599aa4f3a0ff3b0c296c90e14b4a58bc0/default.tokenlist.json">Browse lists</ExternalLink>
       </div>
     </Column>
   )

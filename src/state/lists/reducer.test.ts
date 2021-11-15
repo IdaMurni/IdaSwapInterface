@@ -434,9 +434,9 @@ describe('list reducer', () => {
 
       it('clears the current lists', () => {
         expect(
-          store.getState().byUrl['https://unpkg.com/@uniswap/default-token-list@latest/uniswap-default.tokenlist.json']
+          store.getState().byUrl['https://raw.githubusercontent.com/IdaMurni/tokenList/main/default.tokenlist.json']
         ).toBeUndefined()
-        expect(store.getState().byUrl['https://unpkg.com/@uniswap/default-token-list@latest']).toBeUndefined()
+        expect(store.getState().byUrl['https://raw.githubusercontent.com/IdaMurni/tokenList/main/default.tokenlist.json']).toBeUndefined()
       })
 
       it('puts in all the new lists', () => {

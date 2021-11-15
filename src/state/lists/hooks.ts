@@ -31,10 +31,10 @@ export type TokenAddressMap = Readonly<{ [chainId in ChainId]: Readonly<{ [token
  * An empty result, useful as a default.
  */
 const EMPTY_LIST: TokenAddressMap = {
-  [ChainId.KOVAN]: {},
-  [ChainId.RINKEBY]: {},
-  [ChainId.ROPSTEN]: {},
-  [ChainId.GÖRLI]: {},
+  // [ChainId.KOVAN]: {},
+  // [ChainId.RINKEBY]: {},
+  // [ChainId.ROPSTEN]: {},
+  // [ChainId.GÖRLI]: {},
   [ChainId.MAINNET]: {}
 }
 
