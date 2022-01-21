@@ -7,8 +7,8 @@ import { useTranslation } from 'react-i18next'
 
 import styled from 'styled-components'
 
-import Logo from '../../assets/images/ida_murni_master.png'
-import LogoDark from '../../assets/images/ida_murni_master.png' 
+import Logo from '../../assets/images/logo.png'
+import LogoDark from '../../assets/images/logo.png' 
 import { useActiveWeb3React } from '../../hooks'
 import { useDarkModeManager } from '../../state/user/hooks'
 import { useETHBalances, useAggregateUniBalance } from '../../state/wallet/hooks'
@@ -317,10 +317,10 @@ export default function Header() {
           </StyledNavLink>
           {/* <StyledNavLink id={`stake-nav-link`} to={'/uni'}>
             UNI
-          </StyledNavLink>
-          <StyledNavLink id={`stake-nav-link`} to={'/vote'}>
-            Vote
-          </StyledNavLink> */}
+          </StyledNavLink>*/}
+          <StyledExternalLink id={`stake-nav-link`} href={'https://gardens.1hive.org/#/matic/garden/0x5fdaba692f7efc5d2ab372f84d6e0c17a16534c0'}>
+            Governance
+          </StyledExternalLink>
           <StyledExternalLink id={`stake-nav-link`} href={'https://info.idamurni.de'}>
             Charts <span style={{ fontSize: '11px' }}>↗</span>
           </StyledExternalLink>

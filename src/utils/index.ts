@@ -19,10 +19,10 @@ export function isAddress(value: any): string | false {
 
 const ETHERSCAN_PREFIXES: { [chainId in ChainId]: string } = {
   137: 'polygon',
-  // 3: 'ropsten.',
-  // 4: 'rinkeby.',
-  // 5: 'goerli.',
-  // 42: 'kovan.'
+  3: 'ropsten.',
+  4: 'rinkeby.',
+  5: 'goerli.',
+  42: 'kovan.'
 }
 
 export function getEtherscanLink(

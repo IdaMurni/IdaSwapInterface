@@ -16,7 +16,7 @@ import useUSDCPrice from '../../utils/useUSDCPrice'
 import { AutoColumn } from '../Column'
 import { RowBetween } from '../Row'
 import { Break, CardBGImage, CardNoise, CardSection, DataCard } from '../earn/styled'
-import idaLogo from '../../assets/images/ida_murni_master.png' 
+import idaLogo from '../../assets/images/logo.png' 
 
 const ContentWrapper = styled(AutoColumn)`
   width: 100%;
@@ -118,7 +118,7 @@ export default function UniBalanceContent({ setShowUniBalanceModal }: { setShowU
               <TYPE.white color="white">{totalSupply?.toFixed(0, { groupSeparator: ',' })}</TYPE.white>
             </RowBetween>
             {uni && uni.chainId === ChainId.MAINNET ? (
-              <ExternalLink href={`https://polygonscan.com/token/0xccae06ec0787c07d7df5a60856c73a113fc7cf9a#tokenAnalytics`}>View IdaMurni Analytics on Polygon</ExternalLink>
+              <ExternalLink href={`https://info.idamurni.de/#/token/0xccae06ec0787c07d7df5a60856c73a113fc7cf9a`}>View IdaMurni Analytics</ExternalLink>
             ) : null}
           </AutoColumn>
         </CardSection>
