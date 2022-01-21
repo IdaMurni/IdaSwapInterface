@@ -45,6 +45,7 @@ const ConfirmedIcon = styled(ColumnCenter)`
 const SOCKS_AMOUNT = 1000
 const USER_AMOUNT = 400
 
+
 export default function ClaimModal() {
   const isOpen = useModalOpen(ApplicationModal.SELF_CLAIM)
   const toggleClaimModal = useToggleSelfClaimModal()

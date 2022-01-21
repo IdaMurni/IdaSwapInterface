@@ -109,15 +109,11 @@ export default function Menu() {
             <Info size={14} />
             About
           </MenuItem>
-          {/* <MenuItem id="link" href="https://uniswap.org/docs/v2">
-            <BookOpen size={14} />
-            Docs
-          </MenuItem>
-          <MenuItem id="link" href={CODE_LINK}>
-            <Code size={14} />
-            Code
+          {/* <MenuItem id="link" href="https://gardens.1hive.org/#/matic/garden/0x5fdaba692f7efc5d2ab372f84d6e0c17a16534c0">
+            <MessageCircle size={14} />
+            Governance
           </MenuItem> */}
-          <MenuItem id="link" href="https://discord.gg/Tda4sVtW">
+          <MenuItem id="link" href="https://discord.gg/bpnRphBxFp">
             <MessageCircle size={14} />
             Discord
           </MenuItem>

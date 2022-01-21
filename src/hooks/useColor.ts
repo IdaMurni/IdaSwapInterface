@@ -2,12 +2,12 @@ import { useState, useLayoutEffect } from 'react'
 import { shade } from 'polished'
 import Vibrant from 'node-vibrant'
 import { hex } from 'wcag-contrast'
-import { Token, ChainId } from '@uniswap/sdk'
+import { Token } from '@uniswap/sdk'
 
 async function getColorFromToken(token: Token): Promise<string | null> {
-  if (token.chainId === ChainId.RINKEBY && token.address === '0xc7AD46e0b8a400Bb3C915120d284AafbA8fc4735') {
-    return Promise.resolve('#FAAB14')
-  }
+  // if (token.chainId === ChainId.RINKEBY && token.address === '0xc7AD46e0b8a400Bb3C915120d284AafbA8fc4735') {
+  //   return Promise.resolve('#FAAB14')
+  // }
 
   const path = (token.address === '0xa2d4D881f1267d590f5C582FD98CbCa90e36F832') ? 'https://assets.coingecko.com/coins/images/14073/small/matic.png?1628852392' : `https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/${token.address}/logo.png`
 
