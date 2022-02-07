@@ -23,7 +23,7 @@ export const IDA = new Token(ChainId.MAINNET, '0xCcAE06Ec0787c07D7dF5a60856C73A1
 // TODO this is only approximate, it's actually based on blocks
 export const PROPOSAL_LENGTH_IN_DAYS = 7
 
-export const GOVERNANCE_ADDRESS = '0x5e4be8Bc9637f0EAA1A755019e06A68ce081D58F' // TODO IDA_ADDR
+export const GOVERNANCE_ADDRESS = '0xbFfb3a6B074146c67F752e6625504c921F8067B4'; //'0x5e4be8Bc9637f0EAA1A755019e06A68ce081D58F' // TODO IDA_ADDR
 
 const UNI_ADDRESS = '0xCcAE06Ec0787c07D7dF5a60856C73A113Fc7CF9A'
 export const UNI: { [chainId in ChainId]: Token } = {
